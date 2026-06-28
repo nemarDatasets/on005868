@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Flankers-FAR",
+  "description": "This EEG dataset comprises event-related potential (ERP) recordings from a flanker task experiment examining visual word recognition. Participants viewed four-letter words and pseudowords presented with varying flanker conditions (no flanker, identical flankers, or different flankers) while seated in a sound-attenuated room. The dataset includes 270 trials per participant and was collected at the NeuroCognition Laboratory at San Diego State University under IRB approval.",
+  "methods_description": "EEG data were collected while participants performed a visual flanker task. Stimuli consisted of 90 four-letter real words and 90 four-letter pseudowords presented in white font on a black background at a viewing distance of 152 cm. Each trial began with a purple fixation cross (1000 ms), followed by a white fixation cross (500 ms), stimulus presentation (150 ms), and a blank screen until participant response via game controller. Participants completed 270 trials across three flanker conditions: no flanker, identical flankers, and different flankers.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,40 +14,6 @@
     "Emily M. Akers": {},
     "Karen Emmorey": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005868.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005868",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005868",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises event-related potential (ERP) recordings from a flanker task experiment examining lexical processing in visual word recognition. Participants viewed four-letter words and pseudowords presented with varying flanker conditions (no flanker, identical flankers, or different flankers) while their electroencephalographic activity was recorded. The study investigates how flanking stimuli modulate neural responses to target word processing across 270 trials.",
-  "methods_description": "Data were collected at the NeuroCognition Laboratory at San Diego State University. Participants sat in a darkened, sound-attenuated room and viewed a 24-inch LCD monitor at 152 cm viewing distance. Stimuli consisted of 90 four-letter real words and 90 four-letter pseudowords presented in three flanker conditions (no flanker, identical flankers, different flankers). Each trial included a 1000 ms purple fixation cross, 500 ms white fixation cross, 150 ms stimulus presentation, followed by a blank screen until participant response via game controller.",
   "keywords": [
     {
       "term": "EEG"
@@ -57,14 +25,47 @@
       "term": "flanker task"
     },
     {
-      "term": "lexical processing"
+      "term": "visual word recognition"
     },
     {
-      "term": "word recognition"
+      "term": "pseudowords"
     },
     {
-      "term": "visual attention"
+      "term": "cognitive neuroscience"
     }
   ],
-  "source_hash": "f6d06b9e3f5a25609350ed747a4165bdb9613134835a156c40ce673f27a52620"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005868",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005868",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005868.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "3.1 GB (99 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "053a10c388f865ed0cf599e5144ddbd786e04eab6879ac49811f5b709d908603"
 }
