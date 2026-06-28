@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005868",
-  "source": "openneuro",
-  "source_id": "ds005868",
+  "pipeline_stage": "validated",
   "title": "Flankers-FAR",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Brennan Terhune-Cotter": {},
     "Phillip J. Holcomb": {},
@@ -12,21 +12,59 @@
     "Emily M. Akers": {},
     "Karen Emmorey": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005868.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005868",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005868",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises event-related potential (ERP) recordings from a flanker task experiment examining lexical processing in visual word recognition. Participants viewed four-letter words and pseudowords presented with varying flanker conditions (no flanker, identical flankers, or different flankers) while their electroencephalographic activity was recorded. The study investigates how flanking stimuli modulate neural responses to target word processing across 270 trials.",
+  "methods_description": "Data were collected at the NeuroCognition Laboratory at San Diego State University. Participants sat in a darkened, sound-attenuated room and viewed a 24-inch LCD monitor at 152 cm viewing distance. Stimuli consisted of 90 four-letter real words and 90 four-letter pseudowords presented in three flanker conditions (no flanker, identical flankers, different flankers). Each trial included a 1000 ms purple fixation cross, 500 ms white fixation cross, 150 ms stimulus presentation, followed by a blank screen until participant response via game controller.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "flanker task"
+    },
+    {
+      "term": "lexical processing"
+    },
+    {
+      "term": "word recognition"
+    },
+    {
+      "term": "visual attention"
+    }
+  ],
+  "source_hash": "f6d06b9e3f5a25609350ed747a4165bdb9613134835a156c40ce673f27a52620"
 }
