@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Flankers-FAR",
-  "description": "This dataset comprises event-related potential (ERP) recordings from a visual word recognition task employing a flanker manipulation paradigm. Participants viewed four-letter words and pseudowords presented with varying flanker conditions (no flanker, identical flankers, or different flankers) while seated in a sound-attenuated room. The study investigates how flanking stimuli modulate neural responses to lexical processing, with 270 trials per participant collected at the NeuroCognition Laboratory at San Diego State University.",
-  "methods_description": "Data were collected using EEG recording while participants performed a visual word recognition task. Participants sat in a darkened, sound-attenuated room at a viewing distance of 152 cm from a 24-inch LCD monitor. Stimuli consisted of four-letter words and pseudowords presented in white font on a black background, with flanker words separated by 3.28 degrees of visual angle. Each trial began with a purple fixation cross (1000 ms), followed by a white fixation cross (500 ms), stimulus presentation (150 ms), and a blank screen until participant response via game controller.",
+  "description": "This dataset contains EEG recordings from a flanker word-reading task (Flankers-FAR) collected at the NeuroCognition Laboratory at San Diego State University. Participants viewed four-letter real words and pseudowords flanked by no flanker, identical flankers, or different flankers while EEG was recorded to examine lexical and attentional processing. The dataset includes behavioral responses collected via game controller during stimulus presentation.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room viewing a 24in LCD monitor at 60in distance. They were presented with 90 four-letter real words and 90 four-letter pseudowords in three flanker conditions (no flanker, identical flankers, different flankers), totaling 270 trials. Each trial began with a purple fixation cross (1000ms), followed by a white fixation cross (500ms), then the stimulus (150ms), followed by a blank screen until the participant responded via a game controller.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,19 +19,24 @@
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "word recognition"
-    },
-    {
       "term": "flanker task"
     },
     {
-      "term": "visual processing"
+      "term": "lexical processing"
     },
     {
-      "term": "lexical decision"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "reading"
     }
   ],
   "related_identifiers": [
